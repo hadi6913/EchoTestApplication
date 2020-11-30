@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#272727"
+    tools:context="com.ar.echodualitestapplicationnew.SplashScreen"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#EFEFEF"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:textAlignment="center"
+        android:text="ECHO 5 \n Test Application"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        android:textSize="10dp"
+        android:textColor="#EFEFEF"
+        android:layout_gravity="center_horizontal|bottom"
+        android:gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        android:text="2020,SCSOFT All Right Reserved" />
+</LinearLayout>
